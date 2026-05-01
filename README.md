@@ -1,20 +1,31 @@
-## BankManager
-Projet Java illustrant l’héritage avec différents types de comptes bancaires.
+## Gestion de comptes bancaires
 
-## Classes
-- BankAccount (classe mère)
-- CheckingAccount
-- SavingsAccount
-- COD
+Ce projet Java met en pratique l’héritage en créant plusieurs types de comptes à partir d’une classe de base.
+
+## Description
+Une classe principale `BankAccount` contient les informations communes à tous les comptes.  
+D’autres classes spécialisées héritent de celle-ci pour ajouter leurs propres caractéristiques.
+
+## Classes du projet
+- `BankAccount` : classe de base contenant le numéro de compte et le solde
+- `CheckingAccount` : compte courant avec une limite
+- `SavingsAccount` : compte épargne avec un taux d’intérêt
+- `COD` : certificat de dépôt avec une durée
 
 ## Fonctionnalités
-- Création de comptes
-- Héritage des attributs account et balance
-- Ajout d’attributs spécifiques
+- Création de différents types de comptes
+- Utilisation de l’héritage (`extends`)
+- Accès aux attributs hérités
+- Ajout d’attributs spécifiques selon le type de compte
 
-## Exécution
-1. javac *.java
-2. java Main
+## Lancer le projet
+1. Compiler les fichiers :
+   `javac *.java`
+2. Exécuter le programme :
+   `java Main`
+
+## Objectif
+Comprendre les bases de la programmation orientée objet en Java, notamment l’héritage.
 
 ## Auteure
 Toure Myriam Christine Ibnat Mohamed
