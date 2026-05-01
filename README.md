@@ -23,9 +23,5 @@ D’autres classes spécialisées héritent de celle-ci pour ajouter leurs propr
    `javac *.java`
 2. Exécuter le programme :
    `java Main`
-
-## Objectif
-Comprendre les bases de la programmation orientée objet en Java, notamment l’héritage.
-
 ## Auteure
 Toure Myriam Christine Ibnat Mohamed
