@@ -1,15 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Création des objets
+        CheckingAccount c1 = new CheckingAccount("C001", 1000, 500);
+        SavingsAccount s1 = new SavingsAccount("S001", 2000, 3.5);
+        COD cod1 = new COD("D001", 5000, 12);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Accès aux attributs hérités
+        System.out.println("CheckingAccount : " + c1.account + " - " + c1.balance);
+        System.out.println("SavingsAccount : " + s1.account + " - " + s1.balance);
+        System.out.println("COD : " + cod1.account + " - " + cod1.balance);
     }
 }

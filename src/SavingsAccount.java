@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+// Compte épargne
+public class SavingsAccount extends BankAccount {
 
-public class SavingsAccount {
+    // Taux d'intérêt
+    public double interestRate;
+
+    public SavingsAccount(String account, double balance, double interestRate) {
+        super(account, balance);
+        this.interestRate = interestRate;
+    }
 }
